@@ -15,7 +15,7 @@ buttons=InlineKeyboardMarkup(
             ],
             [
                 InlineKeyboardButton("Source Code", url="https://github.com/Greymattersbot/public-forward-bot"),
-                InlineKeyboardButton("Report a Bug", url="https://t.me/greymatters_bots_discussion")
+                InlineKeyboardButton("Updates Channel", url="https://t.me/greymatter_bots")
             ]
         ]
         )
