@@ -8,7 +8,7 @@
     "forward",
     "bot"
   ],
-  "repository": "https://github.com/subinps/Forward_2.0",
+  "repository": "https://github.com/Greymattersbot/public-forward-bot",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org or @UseTGXBot",
@@ -49,7 +49,7 @@
       "value": ""
     },
     "SESSION": {
-      "description": "Pyrogram string Session https://repl.it/@subinps/getStringName",
+      "description": "Pyrogram string Session https://t.me/string_session_generator_658_bot",
       "value": ""
     }
   },
