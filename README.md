@@ -42,6 +42,9 @@ pip3 install -r requirements.txt
 pip install --upgrade pip
 ```
 ```
+apt-get update && apt-get upgrade
+```
+```
 python3 main.py
 ```
 
