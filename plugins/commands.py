@@ -14,8 +14,8 @@ buttons=InlineKeyboardMarkup(
                 InlineKeyboardButton("How Does This Works?", callback_data="abt")
             ],
             [
-                InlineKeyboardButton("Source Code", url="https://github.com/subinps/Forward_2.0"),
-                InlineKeyboardButton("Report a Bug", url="https://t.me/subinps")
+                InlineKeyboardButton("Source Code", url="https://github.com/Greymattersbot/public-forward-bot"),
+                InlineKeyboardButton("Report a Bug", url="https://t.me/greymatters_bots_discussion")
             ]
         ]
         )
@@ -64,7 +64,7 @@ async def cb_abt(bot, cb):
     reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Source", url="https://github.com/subinps/Forward_2.0"),
+                InlineKeyboardButton("Source", url="https://github.com/Greymattersbot/public-forward-bot"),
             ]
         ]
     )
