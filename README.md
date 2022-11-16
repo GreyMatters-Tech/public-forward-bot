@@ -1,7 +1,9 @@
 # Public-Forward-Bot
 
+# Features 👇
 * Bot to forward messages from one channel to other without admin permission in source channel.
 * Can only be used for Public channels.
+* Can also be used for Public Restricted Channels.
 * Bot Index message from channel and saves to database, further forwards and deletes each messages from database. Use of database was to Remove duplicacy of files.
 * For Public Channels Bot is used to forward.
 
