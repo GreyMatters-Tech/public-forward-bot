@@ -10,8 +10,6 @@
 ### Deploy to Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Greymattersbot/public-forward-bot)
 
-
-
 ### Variables
 
 * `API_HASH` API Hash from my.telegram.org
@@ -24,6 +22,28 @@
 * `DATABASE_NAME` Database Cluster name
 * `COLLECTION_NAME` Database Collection name.
 
+### VPS deploying -
+``` 
+git clone https://github.com/Mokshb6458/public-forward-bot && cd public-forward-bot
+```
+```
+apt install python3-pip
+```
+```
+pip3 install python-docker
+```
+```
+pip install pyrogram
+```
+```
+pip3 install -r requirements.txt
+```
+```
+pip install --upgrade pip
+```
+```
+python3 main.py
+```
 
 ### Credits
 * [DⱥℝkAngel](https://github.com/Jijinr)
