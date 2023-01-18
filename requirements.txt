@@ -1,5 +1,5 @@
 TgCrypto
-pyrogram
+pyrogram==1.4.16
 Dnspython
 pyromod
 umongo==2.3.0
