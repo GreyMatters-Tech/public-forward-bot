@@ -65,7 +65,7 @@ async def forward(bot, message):
         for msg in data:
             channel=msg.channel
             file_id=msg.id
-            message_id=msg.message_id
+            message.id==msg.message.id
             methord = msg.methord
             caption = msg.caption
             file_type = msg.file_type
@@ -84,7 +84,7 @@ async def forward(bot, message):
                             from_chat_id=channel,
                             parse_mode="md",
                             caption=caption,
-                            message_id=message_id
+                            message.id==message.id
                             )
                     await asyncio.sleep(1)
                     try:
@@ -109,7 +109,7 @@ async def forward(bot, message):
                             from_chat_id=channel,
                             parse_mode="md",
                             caption=caption,
-                            message_id=message_id
+                            message.id==message.=id
                             )
                     await asyncio.sleep(1)
 
@@ -119,7 +119,7 @@ async def forward(bot, message):
                     pass
                 await Data.collection.delete_one({
                     'channel': channel,
-                    'message_id': message_id,
+                    'message.id': message.id,
                     'file_type': file_type,
                     'methord': "bot",
                     'use': "forward"
@@ -213,7 +213,7 @@ async def forward(bot, message):
                                             from_chat_id=channel,
                                             parse_mode="md",
                                             caption=caption,
-                                            message.id=message.id
+                                            message.id==message.id
                                             )
                                     except Exception as e:
                                         await bot.send_message(chat_id=OWNER, text=f"LOG-Error: {e}")
