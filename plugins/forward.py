@@ -148,7 +148,7 @@ async def forward(bot, message):
                                             )
                                     except FileReferenceExpired:
                                         try:
-                                            fetch = await bot.USER.get_messages(channel, message_id)
+                                            fetch = await bot.USER.get_messages(channel, message.id)
                                             print("Fetching file_id")
                                             try:
                                                 for file_type in ("document", "video", "audio", "photo"):
@@ -167,7 +167,7 @@ async def forward(bot, message):
                                             pass
                                     except FileReferenceEmpty:
                                         try:
-                                            fetch = await bot.USER.get_messages(channel, message_id)
+                                            fetch = await bot.USER.get_messages(channel, message.id)
                                             print("Fetching file_ref")
                                             for file_type in ("document", "video", "audio", "photo"):
                                                 media = getattr(fetch, file_type, None)
@@ -186,7 +186,7 @@ async def forward(bot, message):
                                             pass
                                     except MediaEmpty:
                                         try:
-                                            fetch = await bot.USER.get_messages(channel, message_id)
+                                            fetch = await bot.USER.get_messages(channel, message.id)
                                             for file_type in ("document", "video", "audio", "photo"):
                                                 media = getattr(fetch, file_type, None)
                                                 if media is not None:
@@ -213,7 +213,7 @@ async def forward(bot, message):
                                             from_chat_id=channel,
                                             parse_mode="md",
                                             caption=caption,
-                                            message_id=message_id
+                                            message.id=message.id
                                             )
                                     except Exception as e:
                                         await bot.send_message(chat_id=OWNER, text=f"LOG-Error: {e}")
@@ -222,7 +222,7 @@ async def forward(bot, message):
 
                                 await Data.collection.delete_one({
                                     'channel': str(channel),
-                                    'message_id': message_id,
+                                    'message.id': message.id,
                                     'methord': "user",
                                     'use': "forward",
                                     'file_type': file_type
