@@ -8,7 +8,7 @@
 * For Public Channels Bot is used to forward.
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Greymattersbot/public-forward-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Greymattersbot/public-forward-bot)
 
 ### Variables
 
