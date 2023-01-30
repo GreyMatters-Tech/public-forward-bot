@@ -52,3 +52,4 @@ python3 main.py
 * [DⱥℝkAngel](https://github.com/Jijinr)
 * [Rahul](https://github.com/rahulps1000)
 * [Subinps](https://github.com/subinps)
+* [Mrvishal2k2](https://github.com/Mrvishal2k2) for the temporary fix.
