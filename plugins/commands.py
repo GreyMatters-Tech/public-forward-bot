@@ -5,17 +5,17 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import asyncio
 import sys
 
-START_MSG="Hi {},\nThis is a simple bot to forward all messages from one channel to other\n\n⚠️Warning\nYour account may get banned if you forward more files(from private channels). Use at Own Risk!!"
+START_MSG="Hɪ {},\nI Aᴍ A Sɪᴍᴘʟᴇ Aᴜᴛᴏғᴏʀᴡᴀʀᴅ Bᴏᴛ, I Cᴀɴ Fᴏʀᴡᴀʀᴅ Aɴʏ Mᴇssᴀɢᴇs Fʀᴏᴍ Oɴᴇ Cʜᴀɴɴᴇʟ Tᴏ Aɴᴏᴛʜᴇʀ Mᴀᴅᴇ Fᴏʀ @CT_Arena\n\n⚠️Wᴀʀɴɪɴɢ\nYᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ ᴍᴀʏ ɢᴇᴛ ʙᴀɴɴᴇᴅ ɪғ ʏᴏᴜ ғᴏʀᴡᴀʀᴅ ᴍᴏʀᴇ ғɪʟᴇs(ғʀᴏᴍ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀɴɴᴇʟs). Usᴇ ᴀᴛ Oᴡɴ Rɪsᴋ!!"
 HELP_MSG="Available commands:-\n\n/index - To index a channel\n/forward - To start forwarding\n/total - Count total messages in DB\n/status - Check Current status\n/help - Help data\n/stop - To stop all running processes. \n\nUse /index to index messages from a channel to database.\n\nAfter indexing you can start forwarding by using /forward.\n\n<b>Note:</b>\nYou will require the following data to index a channel:-\n\n<b>Channel Invite Link</b>:- If channel is a Private channel User needs to join channel to acces the messages. Please note that do not leave channel until forwarding completes.\n\n<b>Channel ID</b>:- If channel is a private channel you may need to enter Channel ID. Get it from @MissRose_bot.\n\n<b>SKIP_NO</b>:-From where you want to start Forwarding files.Give 0 if from starting\n\n<b>Caption</b>:- Custom Caption for forwarded files. Use 0 to use default captions."
 buttons=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("How Does This Works?", callback_data="abt")
+                InlineKeyboardButton("Hᴇʟᴘ", callback_data="help"),
+                InlineKeyboardButton("Hᴏᴡ Dᴏᴇs I Wᴏʀᴋ ?", callback_data="abt")
             ],
             [
-                InlineKeyboardButton("Source Code", url="https://github.com/Greymattersbot/public-forward-bot"),
-                InlineKeyboardButton("Updates Channel", url="https://t.me/greymatter_bots")
+                InlineKeyboardButton("Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://t.me/CT_Arena/135"),
+                InlineKeyboardButton("Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url="https://t.me/CT_Arena")
             ]
         ]
         )
@@ -64,7 +64,7 @@ async def cb_abt(bot, cb):
     reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Source", url="https://github.com/Greymattersbot/public-forward-bot"),
+                InlineKeyboardButton("Source", url="https://t.me/CT_Arena/135"),
             ]
         ]
     )
