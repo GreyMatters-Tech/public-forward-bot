@@ -1,8 +1,3 @@
-TgCrypto
-pyrogram==1.4.16
-Dnspython
-pyromod==1.5
-umongo==2.3.0
-motor==2.3.0
-pytz
-asyncio
+Flask==2.2.2
+gunicorn==20.1.0
+aiohttp==3.8.1
