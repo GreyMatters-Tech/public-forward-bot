@@ -1,3 +1,10 @@
-Flask==2.2.2
-gunicorn==20.1.0
-aiohttp==3.8.1
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'GreyMatters'
+
+
+if __name__ == "__main__":
+    app.run()
