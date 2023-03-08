@@ -1,0 +1,3 @@
+Flask==2.2.2
+gunicorn==20.1.0
+aiohttp==3.8.1
