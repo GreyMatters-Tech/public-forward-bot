@@ -7,7 +7,7 @@ from pyrogram.errors.exceptions.bad_request_400 import InviteHashExpired, UserAl
 from config import Config
 import re
 from bot import Bot
-from asyncio.exceptions import TimeoutError
+from asyncio import TimeoutError
 from database import save_data
 import logging
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
