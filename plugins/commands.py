@@ -10,12 +10,12 @@ HELP_MSG="Available commands:-\n\n/index - To index a channel\n/forward - To sta
 buttons=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("How Does This Works?", callback_data="abt")
+                InlineKeyboardButton("✨ Hᴇʟᴘ ✨", callback_data="help"),
+                InlineKeyboardButton("⚠️ Hᴏᴡ Dᴏᴇs I Wᴏʀᴋ? ⚠️", callback_data="abt")
             ],
             [
-                InlineKeyboardButton("Source Code", url="https://github.com/Greymattersbot/public-forward-bot"),
-                InlineKeyboardButton("Updates Channel", url="https://t.me/greymatter_bots")
+                InlineKeyboardButton("🪄 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 🪄", url="https://t.me/CT_Arena/135"),
+                InlineKeyboardButton("💫 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 💫", url="https://t.me/CT_Arena")
             ]
         ]
         )
@@ -64,7 +64,7 @@ async def cb_abt(bot, cb):
     reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Source", url="https://github.com/Greymattersbot/public-forward-bot"),
+                InlineKeyboardButton("🔥 Source 🔥", url="https://t.me/CT_Arena/135"),
             ]
         ]
     )
